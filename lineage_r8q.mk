@@ -29,6 +29,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Build flags
+EVO_BUILD_TYPE := unofficial
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+BUILD_BCR := false
+TARGET_SUPPORT_BOOT_ANIMATIONS := true
+TARGET_DISABLE_EPPE := false
+TARGET_INCLUDE_VIPERFX := true
+BYPASS_CHARGE_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_r8q
 PRODUCT_DEVICE := r8q
