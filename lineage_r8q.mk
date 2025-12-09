@@ -39,6 +39,8 @@ TARGET_DISABLE_EPPE := false
 TARGET_INCLUDE_VIPERFX := true
 BYPASS_CHARGE_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_CUSTOM_UDFPS := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_r8q
