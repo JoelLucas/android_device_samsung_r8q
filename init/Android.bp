@@ -11,8 +11,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "multi.android.hardware.nfc@1.2-service.rc",
-    src: "multi.android.hardware.nfc@1.2-service.rc",
+    name: "android.hardware.multi-sku.rc",
+    src: "android.hardware.multi-sku.rc",
     sub_dir: "init/",
     soc_specific: true,
 }

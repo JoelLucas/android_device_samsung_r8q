@@ -35,14 +35,15 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.r8q.rc \
-    multi.android.hardware.nfc@1.2-service.rc
+    android.hardware.multi-sku.rc \
+    init.r8q.rc
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_samsung_r8q)
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.samsung \
+    android.hardware.nfc-service.nxp \
+    android.hardware.nfc-service.sec-sku \
     com.android.nfc_extras \
     Tag
 
@@ -60,6 +61,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.uicc.xml \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
+
+# Secure Element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element-service.nxp \
+    android.hardware.secure_element-service.thales-sku
 
 # Sensors
 PRODUCT_PACKAGES += \
