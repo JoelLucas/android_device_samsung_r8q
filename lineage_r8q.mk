@@ -31,15 +31,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Build flags
 WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
-BUILD_BCR := false
 TARGET_SUPPORT_BOOT_ANIMATIONS := true
-TARGET_DISABLE_EPPE := false
-TARGET_INCLUDE_VIPERFX := false
-BYPASS_CHARGE_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
-TARGET_CUSTOM_UDFPS := true
+PRODUCT_NO_CAMERA := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_r8q

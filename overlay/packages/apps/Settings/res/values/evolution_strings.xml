@@ -3,10 +3,10 @@
     Copyright (C) 2019-2024 The Evolution X Project
     SPDX-License-Identifier: Apache-2.0
 -->
- 
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
- 
+
     <!-- Android version screen, build maintainer -->
-    <string name="build_maintainer_summary" translatable="false">Xing_Ling_157</string>
-    <string name="build_maintainer_donate_url" translatable="false"></string>
+    <string name="build_maintainer_summary" translatable="false">Xing-Ling_Br</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://t.me/xingling_br</string>
 </resources>
