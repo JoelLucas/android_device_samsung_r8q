@@ -34,7 +34,7 @@ WITH_GMS := true
 TARGET_SUPPORT_BOOT_ANIMATIONS := true
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
-PRODUCT_NO_CAMERA := true
+PRODUCT_NO_CAMERA := false
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_r8q
